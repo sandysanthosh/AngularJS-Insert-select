@@ -4,6 +4,10 @@ Welcome to the AngularJS-Insert-select wiki!
 angularjs:
 --add angularjs
 --add bootstrap
+<!DOCTYPE html>  
+<html>  
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<body>  
 
  <div ng-app="myapp" ng-controller="usercontroller" ng-init="displayData()">
  <input type="text" name="firstname" ng-model="firstname" class="form-control">
